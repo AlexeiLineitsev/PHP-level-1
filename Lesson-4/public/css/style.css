@@ -1,0 +1,28 @@
+h5:not(:first-child) {
+    margin-top: 25px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.fotoGallery {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotoGallery--img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.fotoGallery--img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.fotoGallery a:not(:last-child) {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
