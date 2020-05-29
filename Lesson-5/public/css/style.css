@@ -1,0 +1,45 @@
+form {
+    margin-top: 50px;
+}
+
+.fotoGallery {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotoGallery--img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.fotoGallery--img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.fotoGallery a {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.item-foto {
+    position: relative;
+}
+
+.view-foto {
+    color: white;
+    position: absolute;
+    top: 81%;
+    left: 86%;
+}
+
+.big_img {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+
